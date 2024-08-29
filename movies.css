@@ -1,0 +1,63 @@
+*{
+    background-color: rgba(42, 41, 41, 0);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(44, 43, 43, 0.6),rgba(113, 110, 110, 0.6)),url("https://assets.nflxext.com/ffe/siteui/vlv3/1d29f9a4-1900-43dc-a420-99044f734ee2/cc3b7bcb-3f79-449e-a37c-26ffb20fce3c/IN-en-20240826-POP_SIGNUP_TWO_WEEKS-perspective_WEB_7a193436-88c7-4f66-a8f0-e191d3b26d13_large.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat:no-repeat
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left: 5%;
+    
+}
+.logo{
+    color:white;
+    font-size: 50px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+.demo{
+    color: rgb(255, 0, 0);
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.nav ul li a{
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+
+}
+.nav ul li a:hover{
+    color:rgb(177, 5, 5);
+    transition: 0.3s;
+}
+button{
+    border-width: 0;
+    padding: 12px 30px;
+    background-color:rgb(141, 3, 3) ;
+    border-radius: 20px;
+    color:white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+button:hover{
+    color:white;
+    transition: 0.3s;
+}
