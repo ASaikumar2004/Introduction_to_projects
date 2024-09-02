@@ -45,7 +45,7 @@
 
 }
 .nav ul li a:hover{
-    color:rgb(0, 0, 0);
+    color:rgb(221, 8, 8);
     transition: 0.3s;
 }
 button{
@@ -106,4 +106,5 @@ input{
 .btn:hover{
     cursor: pointer;
     color: black;
+    
 }
